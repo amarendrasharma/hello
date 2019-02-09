@@ -40,6 +40,14 @@ body {
     rgba(0, 0, 0, 0.75) 100%
   );
 }
+
+.under-below {
+  text-decoration: underline;
+  -webkit-text-underline-position: under;
+  -ms-text-underline-position: below;
+  text-underline-position: under;
+}
+
 @media only screen and (max-width: 320px) {
   .my-name {
     font-family: "Roboto Condensed", sans-serif;
