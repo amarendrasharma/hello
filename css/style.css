@@ -48,6 +48,26 @@ body {
   text-underline-position: under;
 }
 
+/* blog */
+
+.bg-grey {
+  background-color: #c0c0c0;
+}
+
+.fdb-block .fdb-touch {
+  border-top: solid 0.3125rem #329ef7;
+  z-index: 2;
+}
+
+.fdb-block .fdb-box {
+  background: #fff;
+  padding: 3.75rem 2.5rem;
+  overflow: hidden;
+  color: #444;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.3125rem 0.875rem 0 rgba(129, 129, 129, 0.2) !important;
+}
+/* end blog */
 @media only screen and (max-width: 320px) {
   .my-name {
     font-family: "Roboto Condensed", sans-serif;
