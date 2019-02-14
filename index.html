@@ -48,7 +48,7 @@
   </head>
   <body class="pt-5">
       
-      <nav class="navbar navbar-expand-lg navbar-light bg-light rounded fixed-top  shadow-base">
+      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light rounded fixed-top  shadow-base">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -71,8 +71,23 @@
             </ul>
 
       
-             </nav>
-          </div>
+            </div>
+             </nav> -->
+             <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
+                <a href="/" class="nav-link py-2 px-5 active">About</a>
+                <a class="nav-link py-2 px-5" href="/blog.html">Blog</a>
+                <a class="nav-link py-2 px-5" href="/resume.html">Resume</a>
+
+              </div>
+            
+            </div>
+            
+            <!-- Use any element to open/show the overlay navigation menu -->
+                    <span onclick="openNav()" class="ml-5">
+                      &#9776;   open
+                    </span>
          
          
           <div class="py-5">
@@ -193,7 +208,16 @@
 
       </div> -->
 
-    
+    <script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+    </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
