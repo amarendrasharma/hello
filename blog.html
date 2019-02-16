@@ -39,10 +39,9 @@
   </head>
   <body class="pt-5">
       
-      <nav class="navbar navbar-expand-lg navbar-light bg-light rounded fixed-top  shadow-sm">
+      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light rounded fixed-top  shadow-sm">
             <div class="container">
       
-            <!-- <h1 class="navbar-brand font-weight-normal">Amarendra Sharma</h1> -->
         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -61,9 +60,25 @@
               </li>
             </ul>
              </nav>
+          </div> -->
+
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="/" class="nav-link py-2 px-5 active">About</a>
+              <a class="nav-link py-2 px-5 under-below active" href="/blog.html">Blog</a>
+              <a class="nav-link py-2 px-5" href="/resume.html">Resume</a>
+
+            </div>
+          
+          </div>
+          <div class="container mb-0">
+            <span onclick="openNav()" class="ml-4">
+              <h3 class="mb-0">  &#9776; </h3>
+            </span>
           </div>
 
-          <div class="container py-5">
+          <div class="container py-3">
                 <div class="row text-center">
                         <div class="col">
                           <h1 class="h2 my-name">A  Developer's  Blog</h1>
@@ -191,8 +206,7 @@
                   </div>
                 </div>
                 </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+  
   </body>
 </html>
