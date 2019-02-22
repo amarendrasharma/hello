@@ -4,9 +4,11 @@ body {
   font-family: "Halant", serif;
 }
 
-p,li{
 
+
+.railway {
   font-family: 'Raleway', sans-serif;
+  font-weight: 500 !important;
 
 }
 .my-name {
