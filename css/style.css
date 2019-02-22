@@ -1,4 +1,14 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Halant", serif;
+}
 
+p,li{
+
+  font-family: 'Raleway', sans-serif;
+
+}
 .my-name {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
