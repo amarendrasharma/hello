@@ -12,20 +12,24 @@
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    @yield('stylesection')
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 <script src="{{ mix('js/alpine.js') }}"></script>
 </head>
 <body>
-<div x-data="{ open: false }">
-    <button @click="open = true">Open Dropdown</button>
-
-    <ul
-        x-show="open"
-        @click.away="open = false"
-    >
-        Dropdown Body
-    </ul>
-</div>
+<div class="px-4 md:px-16 py-4 border-t-2 border-blue-500">
+    <div class="container mx-auto md:w-6/12">
+        <div class="mb-8">
+            <h4 class="text-3xl font-bold">Amarendra Sharma</h4>
+            <div class="mb-3">
+                <a class="no-underline mr-4 font-semibold {{ (\Route::currentRouteName() == 'home') ? 'text-black underline':'text-gray-500'}}">Home</a>
+                <a class="mr-4 font-semibold  no-underline hover:text-black {{ (\Route::currentRouteName() == 'resume') ? 'text-black underline':'text-gray-500'}}">Resume</a>
+                <a class="mr-4 font-semibold no-underline hover:text-black {{ (\Route::currentRouteName() == 'project') ? 'text-black underline':'text-gray-500'}}">Projects </a>
+                <a class=" font-semibold no-underline hover:text-black {{ (\Route::currentRouteName() == 'links') ? 'text-black underline':'text-gray-500'}}">Links</a>
+            </div>
+        </div>
+    </div>
 @yield('content')
+</div>
 </body>
 </html>
