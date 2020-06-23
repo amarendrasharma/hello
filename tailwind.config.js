@@ -7,6 +7,9 @@ module.exports = {
         '1/2': '50%',
         '1/3': '33.33333%',
         '2/3': '66.66667%'
+      }, screens: {
+        'print': { 'raw': 'print' },
+        // => @media  print { ... }
       }
     },
   },
