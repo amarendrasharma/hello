@@ -21,9 +21,8 @@
         <h4 class="font-bold">Objective</h4>
       </div>
       <div class="mt-2">
-        <strong>Willing </strong>to associate with a vibrant organization, which would be beneficial for my
-        career to fully utilize my knowledge, skills and contribute to the overall growth of the organization
-        along with my own.
+        <strong>Willing</strong> to associate with a vibrant organization which would provide me a platform to
+        utilize my skills and knowledge for the upliftment of the organization.
       </div>
     </div>
     <div class="mb-3 mx-auto">

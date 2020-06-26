@@ -7,7 +7,7 @@
             <div class="relative pb-2/3 mr-2 mb-4 md:mb-0">
                 <img class="absolute h-60 md:h-full w-full object-cover rounded" src="{{url("img/2.jpg")}}">
             </div>
-            <p class="italic pt-3">When last you see the sky and enjoy the rain </p>
+            <p class="italic pt-3">When did you see the sky and enjoyed the rain last time ? </p>
         </div>
         <div class="mb-8">
             <p class="mb-3"> <span class="font-semibold"> Hello 👋,</span> I am glad that you are here, at my web
