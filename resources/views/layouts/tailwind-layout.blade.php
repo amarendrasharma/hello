@@ -14,25 +14,23 @@
     <title>Amarendra Sharma - Web Developer(Laravel and Vue Js) </title>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <meta name="description"
-        content="I am a software developer from India with 3 years of experience building things on the web for people. Basically I use Laravel and Vue.js for crafting a web app." />
+        content="A software developer from India with 3 years of experience in crafting things on the web using Laravel and Vue.js." />
     <meta name="theme-color" content="#C0C0C0">
     <link rel="canonical" href="https://amarendra.dev/" />
-    <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Amarendra Sharma - Crafting Web App with Laravel and Vue.js." />
+    <meta property="og:title" content="Amarendra Sharma - Crafting web application with Laravel and Vue.js." />
     <meta property="og:description"
-        content="A software developer from India with 3 years of experience building things on the web for people. Basically I use Laravel and Vue.js for crafting a web app." />
+        content="A software developer from India with 3 years of experience in crafting things on the web using Laravel and Vue.js." />
     <meta property="og:url" content="https://amarendra.dev" />
-    <meta property="og:site_name" content="Amarendra Sharma - Crafting Web App with Laravel and Vue.js." />
+    <meta property="og:site_name" content="Amarendra Sharma - Crafting web application with Laravel and Vue.js." />
     <meta property="og:image"
         content="https://res.cloudinary.com/amardeveloper/image/upload/v1593255382/amarendrasharma_vzda0h.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:description"
-        content="A software developer from India with 3 years of experience building things on the web for people. Basically I use Laravel and Vue.js for crafting a web app." />
-    <meta name="twitter:title" content="Amarendra Sharma - Crafting Web App with Laravel and Vue.js." />
+        content="A software developer from India with 3 years of experience in crafting things on the web using Laravel and Vue.js." />
+    <meta name="twitter:title" content="Amarendra Sharma - Crafting web application with Laravel and Vue.js." />
     <meta name="twitter:site" content="@developer_amar" />
     <meta name="twitter:creator" content="@developer_amar" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
