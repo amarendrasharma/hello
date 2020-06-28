@@ -2,14 +2,38 @@
 <html lang="{{ app()->getLocale() }}">
 
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134163690-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'UA-134163690-1');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSRF Token -->
+    <title>Amarendra Sharma - Web Developer(Laravel and Vue Js) </title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="description"
+        content="I am a software developer from India with 3 years of experience building things on the web for people. Basically I use Laravel and Vue.js for crafting a web app." />
+    <meta name="theme-color" content="#C0C0C0">
+    <link rel="canonical" href="https://amarendra.dev/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Amarendra Sharma - Crafting Web App with Laravel and Vue.js." />
+    <meta property="og:description"
+        content="A software developer from India with 3 years of experience building things on the web for people. Basically I use Laravel and Vue.js for crafting a web app." />
+    <meta property="og:url" content="https://amarendra.dev" />
+    <meta property="og:site_name" content="Amarendra Sharma - Crafting Web App with Laravel and Vue.js." />
+    <meta property="og:image"
+        content="https://res.cloudinary.com/amardeveloper/image/upload/v1593255382/amarendrasharma_vzda0h.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description"
+        content="A software developer from India with 3 years of experience building things on the web for people. Basically I use Laravel and Vue.js for crafting a web app." />
+    <meta name="twitter:title" content="Amarendra Sharma - Crafting Web App with Laravel and Vue.js." />
+    <meta name="twitter:site" content="@developer_amar" />
+    <meta name="twitter:creator" content="@developer_amar" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     @yield('stylesection')
@@ -21,7 +45,7 @@
     <div class="px-4 md:px-16 py-4 border-t-2 md:border-t-4 border-blue-500">
         <div class="container mx-auto md:w-9/12">
             <div class="mb-8">
-                @if(\Route::currentRouteName() == 'home')<h4 class="text-3xl font-bold">Amarendra Sharma</h4>@endif
+                @if(\Route::currentRouteName() == 'home')<h1 class="text-3xl font-bold">Amarendra Sharma</h1>@endif
                 <div class="mb-3">
                     <a href="/"
                         class="no-underline mr-4 font-semibold {{ (\Route::currentRouteName() == 'home') ? 'text-black underline':'text-gray-500'}}">Home</a>

@@ -22,7 +22,7 @@
             </p>
             <p class="mb-3"> Currently I am employeed at <a href="https://www.innoventestech.com"
                     class="text-blue-600 font-semibold">Innoventes
-                    Technology</a> and working at <a href="https://kuvera.in"
+                    Technologies</a> and working at <a href="https://kuvera.in"
                     class="text-blue-600 font-semibold">Kuvera</a>
                 as a
                 developer
