@@ -36,6 +36,7 @@
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     @yield('stylesection')
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <script src="{{ mix('js/alpine.js') }}"></script>
 </head>
 
@@ -43,7 +44,7 @@
     <div class="px-4 md:px-16 py-4 border-t-2 md:border-t-4 border-blue-500">
         <div class="container mx-auto md:w-9/12">
             <div class="mb-8">
-                @if(\Route::currentRouteName() == 'home')<h1 class="text-3xl font-bold">Amarendra Sharma</h1>@endif
+                <h1 class="text-3xl font-bold">Amarendra Sharma</h1>
                 <div class="mb-3">
                     <a href="/"
                         class="no-underline mr-4 font-semibold {{ (\Route::currentRouteName() == 'home') ? 'text-black underline':'text-gray-500'}}">Home</a>
@@ -59,6 +60,14 @@
             </div>
         </div>
         @yield('content')
+        <div class="container mx-auto md:w-9/12">
+            <a href="https://github.com/amarendrasharma">
+                <i class='bx bxl-github mx-2 text-2xl'></i></a>
+            <a href="https://www.linkedin.com/in/amarendra-sharma/"> <i
+                    class='bx bxl-linkedin-square mx-2 text-2xl'></i></a>
+            <a href="https://www.instagram.com/amar_developer/"> <i class='bx bxl-instagram mx-2 text-2xl'></i></a>
+            <a href="https://twitter.com/developer_amar"> <i class='bx bxl-twitter mx-2 text-2xl'></i></a>
+        </div>
     </div>
 </body>
 

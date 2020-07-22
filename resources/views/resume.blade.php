@@ -1,7 +1,7 @@
 @extends('layouts.tailwind-layout')
 
 @section('content')
-<div class="pt-3 md:w-9/12 mx-auto">
+<div class="md:w-9/12 mx-auto">
   <a href="amarendra_resume.pdf" class="hidden md:block text-blue-600 font-semibold">👉 You can download my resume 📄
   </a>
   <div class="container">
