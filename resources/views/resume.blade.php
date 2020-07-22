@@ -38,8 +38,8 @@
             </p>
             <p class="font-bold text-gray-600">March 2020 - Present, Bengaluru </p>
             <ul class="list-disc list-outside px-4 py-2">
-              <li class="mb-2">Working on the redesignin of Mutual Fund section</li>
-              <li class="mb-2">Developed scalable components: Fund comparision, listing and displaying funds
+              <li class="mb-2">Working on the redesigning of Mutual Fund section</li>
+              <li class="mb-2">Developed scalable components: Fund comparison, listing and displaying funds
                 according to the specs, revamp sip and lumpsum investment widget</li>
               <li class="mb-2">Developed every feature or component for all devices considering reusability and
                 responsiveness
