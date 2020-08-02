@@ -50,6 +50,9 @@
                         class="no-underline mr-4 font-semibold {{ (\Route::currentRouteName() == 'home') ? 'text-black underline':'text-gray-500'}}">Home</a>
                     <a href="/resume"
                         class="mr-4 font-semibold  no-underline hover:text-black {{ (\Route::currentRouteName() == 'resume') ? 'text-black underline':'text-gray-500'}}">Resume</a>
+                    <a href="/contact"
+                        class="mr-4 font-semibold no-underline hover:text-black {{ (\Route::currentRouteName() == 'contact') ? 'text-black underline':'text-gray-500'}}">Contacts
+                    </a>
                     {{-- <a
                         class="mr-4 font-semibold no-underline hover:text-black {{ (\Route::currentRouteName() == 'project') ? 'text-black underline':'text-gray-500'}}">Projects
                     </a>
