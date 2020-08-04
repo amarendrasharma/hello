@@ -19,6 +19,9 @@ Route::prefix('prev')->group(function () {
 Route::view('/projects', 'projects');
 Route::view('/mobile', 'mobile');
 Route::view('/me', 'me');
+Route::get('/contact', 'ContactController@index')->name('contact');
+Route::post('/contact', 'ContactController@store')->name('contact.store');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
