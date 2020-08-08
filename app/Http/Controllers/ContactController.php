@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Contact;
 use Illuminate\Http\Request;
+use Illuminate\Support\Arr;
 
 class ContactController extends Controller
 {
@@ -39,9 +40,14 @@ class ContactController extends Controller
             'name' => ['required'],
             'email' => ['required', 'email'],
             'message' => ['string'],
+            'ip' => ['ip']
         ]);
         if ($validated) {
-            Contact::create($validated);
+            // return $request->all();
+            $validated['ip'] = (string)$request->ip();
+            Contact::create($validated + ['ip' => $request->ip]);
+            return $validated;
+            return "yahh";
         }
     }
 
