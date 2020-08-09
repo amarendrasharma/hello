@@ -38,6 +38,8 @@
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <script src="{{ mix('js/alpine.js') }}"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
 </head>
 
 <body>
