@@ -2,8 +2,6 @@
 
 @section('content')
 <div class="md:w-9/12 mx-auto">
-
-
     <form class="w-full max-w-lg " action="/contact" method="POST">
         @csrf
         <input type="hidden" name="recaptcha" id="recaptcha">
@@ -58,7 +56,6 @@
              });
          });
     </script>
-
 </div>
 
 @endsection

@@ -21,6 +21,9 @@ Route::view('/mobile', 'mobile');
 Route::view('/me', 'me');
 Route::get('/contact', 'ContactController@index')->name('contact');
 Route::post('/contact', 'ContactController@store')->name('contact.store');
+Route::get('/contact/admin', function () {
+    return view('admin.blog.create');
+});
 
 Auth::routes();
 
