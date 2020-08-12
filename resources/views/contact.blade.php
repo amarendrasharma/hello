@@ -11,7 +11,7 @@
                     Your name please?
                 </label>
                 <input
-                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                    class="appearance-none block w-full bg-gray-200 text-gray-700 border @error('name') border-red-500 @enderror rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                     id="grid-first-name" type="text" name="name">
                 <p class="text-red-500 text-xs italic">Please fill out this field.</p>
             </div>
