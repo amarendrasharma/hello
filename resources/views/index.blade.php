@@ -19,12 +19,9 @@
         <a href="https://vuejs.org" class="font-semibold text-blue-600">Vue.js</a> for crafting things that
         you may like to use.
     </p>
-    <p class="mb-3"> Currently I am employeed at <a href="https://www.innoventestech.com"
-            class="text-blue-600 font-semibold">Innoventes
-            Technologies</a> and working at <a href="https://kuvera.in" class="text-blue-600 font-semibold">Kuvera</a>
-        as a
-        developer
-        consultant .</p>
+    <p class="mb-3"> Currently I am working at <a href="https://www.nichi.com/"
+            class="text-blue-600 font-semibold">Nichi In Software Solutions Pvt Ltd 
+            </a>as a Senior Software Engineer.</p>
 
 </div>
 </div>
