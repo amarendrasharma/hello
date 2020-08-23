@@ -36,12 +36,16 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
-        // $validated = $request->validate([
-        //     'name' => ['required'],
-        //     'email' => ['required', 'email'],
-        //     'message' => ['string'],
-        //     'ip' => ['ip']
-        // ]);
+        $validated = $request->validate([
+            'name' => ['required','alpha'],
+            'email' => ['required', 'email'],
+            'message' => ['required','string'],
+            'ip' => ['ip']
+        ],[
+            'message.required' => 'Please write your message',
+            'name.required' => 'Please let me know your name',
+            'name.alpha' => 'Please let me know your real name',
+        ]);
         $url = 'https://www.google.com/recaptcha/api/siteverify';
         $data = [
             'secret' => config('services.recaptcha.secret'),

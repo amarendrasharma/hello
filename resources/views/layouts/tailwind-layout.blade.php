@@ -54,10 +54,10 @@
                         class="mr-4 font-semibold  no-underline hover:text-black {{ (\Route::currentRouteName() == 'resume') ? 'text-black underline':'text-gray-500'}}">Resume</a>
                     {{-- <a
                         class="mr-4 font-semibold no-underline hover:text-black {{ (\Route::currentRouteName() == 'project') ? 'text-black underline':'text-gray-500'}}">Projects
-                    </a>
-                    <a
-                        class=" font-semibold no-underline hover:text-black {{ (\Route::currentRouteName() == 'links') ? 'text-black underline':'text-gray-500'}}">Links</a>
-                    --}}
+                    </a>  --}}
+                    <a href="/contact"
+                        class=" font-semibold no-underline hover:text-black {{ (\Route::currentRouteName() == 'contact') ? 'text-black underline':'text-gray-500'}}">Contact</a>
+                  
                 </div>
             </div>
         </div>
