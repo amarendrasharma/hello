@@ -36,7 +36,7 @@
                 Engineer, work at
                 <a href="https://kuvera.in/">Kuvera.in</a> (consultant)</span>
             </p>
-            <p class="font-bold text-gray-600">March 2020 - Present, Bengaluru </p>
+            <p class="font-bold text-gray-600">March 2020 - July 2020, Bengaluru </p>
             <ul class="list-disc list-outside px-4 py-2">
               <li class="mb-2">Working on the redesigning of Mutual Fund section</li>
               <li class="mb-2">Developed scalable components: Fund comparison, listing and displaying funds

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Contact;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\DB;
 
 class ContactController extends Controller
 {
@@ -37,11 +38,11 @@ class ContactController extends Controller
     public function store(Request $request)
     {
         $validated = $request->validate([
-            'name' => ['required','alpha'],
+            'name' => ['required', 'alpha'],
             'email' => ['required', 'email'],
-            'message' => ['required','string'],
+            'message' => ['required', 'string'],
             'ip' => ['ip']
-        ],[
+        ], [
             'message.required' => 'Please write your message',
             'name.required' => 'Please let me know your name',
             'name.alpha' => 'Please let me know your real name',
@@ -67,7 +68,15 @@ class ContactController extends Controller
             return back()->withErrors(['captcha' => 'ReCaptcha Error']);
         }
         if ($resultJson->score >= 0.3) {
-            //Validation was successful, add your form submission logic here
+            DB::beginTransaction();
+            try {
+                Contact::create($validated + ['ip' => $request->ip]);
+                return back()->with('message', 'Thanks for your message!');
+            } catch (\Exception $e) {
+                DB::rollBack();
+                return back()->with('message', $e->message);
+            }
+            DB::commit();
             return back()->with('message', 'Thanks for your message!');
         } else {
             return back()->withErrors(['captcha' => 'ReCaptcha Error']);
