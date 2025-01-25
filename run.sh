@@ -1,1 +1,1 @@
- npx tailwindcss -i ./src/assets/index.css -o ./dist/output.css --watch
+npx @tailwindcss/cli -i ./src/assets/index.css -o ./src/output.css --watch
